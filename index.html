@@ -44,26 +44,31 @@
               <div class="form-group">
                 <p>Filter Search</p>
                 <ul class="list-group" id="filters">
-                  <li class="filter list-group-item">
-                    <label class="bg-dark" for="date">Enter Date</label></br>
-                    <input class="form=control" type="text" placeholder="1/10/2010" id="datetime" />
+                  <li class="filter list-group-item bg-dark">
+                    <label for="date">Enter a Date</label></br>
+                    <input class="form-control" type="text" placeholder="1/10/2010" id="datetime"/>
                   </li>
-                  <li class="filter list-group-item">
+                  <li class="filter list-group-item bg-dark">
                     <label for="city">Enter a City</label></br>
-                    <input class="form=control" type="text" placeholder="roswell" id="city">
+                    <input class="form-control" type="text" placeholder="roswell" id="city">
                   </li>
-                  <li class="filter list-group-item">
+                  <li class="filter list-group-item bg-dark">
                     <label for="state">Enter a State</label></br>
-                    <input class="form=control" type="text" placeholder="ca" id="state">
+                    <input class="form-control" type="text" placeholder="ca" id="state">
                   </li>
-                  <li class="filter list-group-item">
+                  <li class="filter list-group-item bg-dark">
                     <label for="country">Enter a Country</label></br>
-                    <input class="form=control" type="text" placeholder="us" id="country">
+                    <input class="form-control" type="text" placeholder="us" id="country">
                   </li>
-                  <li class="filter list-group-item">
+                  <li class="filter list-group-item bg-dark">
                     <label for="shape">Enter a Shape</label></br>
-                    <input class="form=control" type="text" placeholder="circle" id="shape">
-                  </li>
+                    <input class="form-control" type="text" placeholder="circle" id="shape">
+                  </li></br>
+                  <p>
+                  <button id="filter-btn" type="button" class="btn btn-default" style="float: right">
+                    Filter Table
+                  </button>
+                  </p>
                 </ul>
               </div>
             </form>
